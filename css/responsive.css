@@ -321,6 +321,38 @@
 		margin: 35px auto 0 auto;
 		width: 100%;
 	}
+	.contenido .menu_contenido .menu_cuadros {
+		background-image: url(../imagenes/menu_ofertas_off.png);
+		float: right;
+		height: 16px;
+		margin: 0 10px;
+		vertical-align: top;
+		width: 16px;
+	}
+	.contenido .menu_contenido .menu_cuadros:hover {
+		background-image: url(../imagenes/menu_ofertas_on.png);
+		float: right;
+		margin: 0 10px;
+		height: 16px;
+		vertical-align: top;
+		width: 16px;
+	}
+	.contenido .menu_contenido .menu_lineas {
+		background-image: url(../imagenes/menu_ofertas_linea_off.png);
+		float: right;
+		height: 16px;
+		margin: 0 10px;
+		vertical-align: top;
+		width: 16px;
+	}
+	.contenido .menu_contenido .menu_lineas:hover {
+		background-image: url(../imagenes/menu_ofertas_linea_on.png);
+		float: right;
+		height: 16px;
+		margin: 0 10px;
+		vertical-align: top;
+		width: 16px;
+	}
 	.contenido .menu_contenido li {
 		color: white;
 		display: inline;
