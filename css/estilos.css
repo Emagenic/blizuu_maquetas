@@ -877,6 +877,89 @@ nav ul li {
     margin: 0;
     padding: 0;
 }
+.sub_contenido .locales {
+	margin: 20px auto 0 auto;
+	text-align: center;
+	width: 90%;
+}
+.sub_contenido .locales .btn_locales .botonera_locales {
+	background-color: #ee4e5f;
+	border-radius: 20px;
+	font-size: 0.9em;
+	margin: 5px 0;
+	padding: 8px 0;
+	text-align: left;
+	width: 100%;
+}
+.sub_contenido .locales .btn_locales .botonera_locales a {
+	color: white;
+	padding-left: 10px;
+	text-decoration: none;
+}
+.sub_contenido .locales .btn_locales .botonera_locales img {
+	float: right;
+	margin-right: 20px;
+	margin-top: 3px;
+}
+.sub_contenido .locales .sucursal {
+	margin-top: 25px;
+	vertical-align: top;
+}
+.sub_contenido .locales .sucursal .direccion {
+	color: #525252;
+   	font-size: 0.8em;
+   	font-weight: normal;
+   	margin: 0;
+   	padding: 0;
+}
+.sub_contenido .locales .sucursal figcaption {
+	background-color: white;
+	margin: 0 auto;
+	padding: 5px;
+	width: 150px;
+}
+.sub_contenido .locales .sucursal figcaption img {
+	width: 150px;
+}
+.sub_contenido .locales .sucursal h2 {
+	color: #333;
+	font-size: 0.9em;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+.sub_contenido .locales .sucursal .horario {
+	color: #525252;
+   	font-size: 0.8em;
+   	font-weight: normal;
+   	margin: 20px 0 0 0;
+   	padding: 0;
+}
+.sub_contenido .locales .sucursal .horarios {
+	color: #525252;
+   	font-size: 0.8em;
+   	font-weight: normal;
+   	margin: 0;
+   	padding: 0;
+}
+.sub_contenido .locales .sucursal .iconitos {
+	margin-top: 30px;
+}
+.sub_contenido .locales .sucursal .iconitos img {
+	height: 23px;
+	width: 23px;
+}
+.sub_contenido .locales .sucursal .ver_mapa {
+	background-color: #3ca56c;
+	border-radius: 10px;
+	font-size: 0.8em;
+	margin: 10px auto 0 auto;
+	padding: 2px 5px;
+	width: 80px;
+}
+.sub_contenido .locales .sucursal .ver_mapa a {
+	color: white;
+	text-decoration: none;
+}
 .sub_contenido .sub_menu {
     display: none;
 }
@@ -909,4 +992,3 @@ nav ul li {
 .sub_contenido .sub_menu_movil p img {
     width: 10px;
 }
-
