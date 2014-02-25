@@ -183,6 +183,21 @@
 		padding: 0;
 		width: 768px;
 	}
+	.contenido .contenido_principal .boton_rosa {
+	  background-color: #ee4e5f;
+	  border-radius: 10px;
+	  box-shadow: 0 3px 0 #bb3933;
+	  display: inline-block;
+	  margin: 10px 20px;
+	  padding: 5px 0;
+	  width: 200px;
+	}
+	.contenido .contenido_principal .boton_rosa a {
+	  color: white;
+	  text-decoration: none;
+	}
+
+
 	.contenido .contenido_principal .descripcion_contenido {
 		background: white;
 		border-radius: 20px;
@@ -317,6 +332,43 @@
     .contenido .contenido_principal .publicidad .logo_claro img {
     	margin-top: 50px;
     }
+
+
+
+
+    .contenido .contenido_principal .puntos {
+    	position: relative;
+    }
+    .contenido .contenido_principal .puntos .contacto_via {
+	  display: inline-block;
+	  position: absolute;
+	  top: -15px;
+	  left: 0;
+	}
+    .contenido .contenido_principal .puntos .puntos_radio {
+	  
+	  display: inline-block;
+	  position: relative;
+	  text-align: right;
+	  left: 70px;
+	  width: 190px;
+	}
+	.contenido .contenido_principal .puntos .puntos_radio .radio {
+	  background-color: red;
+	  position: absolute;
+	  top: 3px;
+	  right: 50px;
+	  float: left;
+	}
+	.contenido .contenido_principal .puntos .puntos_radio label {
+	  float: right;
+	  
+	  width: 180px;
+	}
+
+   
+	
+
 	.contenido .menu_contenido {
 		margin: 35px auto 0 auto;
 		width: 100%;
@@ -680,6 +732,81 @@
 		margin: 0; 
 		padding: 0 0 5px 0; 
 	}
+
+
+
+	
+
+
+
+	.contenido .contenido_principal .ingresar_oferta input {
+	  	border: none;
+	  	display: inline-block;
+	  	float: left;
+	  	padding: 7px 0;
+	  	text-align: center;
+	  	margin-bottom: 12px;
+	  	width: 390px;
+	}
+	.contenido .contenido_principal .ingresar_oferta .subir_foto {
+  		display: block;
+  		margin-top: 70px;
+	}
+	.contenido .contenido_principal .ingresar_oferta .subir_foto .foto {
+  		margin: 0 5px;
+	}
+	.contenido .contenido_principal .ingresar_oferta .subir_foto p {
+		display: inline-block;
+		margin-bottom: 5px;
+		vertical-align: top;
+		width: 136px;
+	}
+	.contenido .contenido_principal .moneda_center  {
+	  	display: inline-block;
+	  	float: left;
+	  	margin-top: 5px;
+	  	width: 300px;
+	}
+	.contenido .contenido_principal p  {
+	  	display: block;
+	}
+
+
+	.contenido .contenido_principal .puntos {
+    	position: relative;
+    }
+    .contenido .contenido_principal .puntos .contacto_via {
+	  display: inline-block;
+	  position: absolute;
+	  top: -15px;
+	  left: 0;
+	}
+    .contenido .contenido_principal .puntos .puntos_radio {
+	  
+	  display: inline-block;
+	  position: relative;
+	  text-align: right;
+	  left: 50px;
+	  width: 180px;
+	}
+	.contenido .contenido_principal .puntos .puntos_radio .radio {
+	  background-color: red;
+	  position: absolute;
+	  top: 3px;
+	  right: 0;
+	  float: left;
+	}
+	.contenido .contenido_principal .puntos .puntos_radio label {
+	  float: right;
+	  
+	  text-align: left;
+	  width: 180px;
+	}
+
+
+
+
+
 	.contenido .contenido_principal .publicidad {
 		background-color: white;
 		border-radius: 20px;
@@ -711,6 +838,16 @@
     .contenido .contenido_principal .publicidad .logo_claro img {
     	margin-top: 50px;
     }
+
+
+
+
+
+
+    
+
+
+
 	.contenido .menu_contenido {
 		float: left;
 		width: 895px;
@@ -741,7 +878,7 @@
 		background-color: #4fa9de;
 		border-radius: 10px;
 		color: white;
-		font-size: 0.7em;
+		font-size: 0.6em;
 		padding: 3px 10px;
 		text-decoration: none;
 	}
@@ -756,7 +893,7 @@
 		background-color: #ee4e5f;
 		border-radius: 10px;
 		color: white;
-		font-size: 0.7em;
+		font-size: 0.6em;
 		padding: 3px 10px;
 		text-decoration: none;
 	}
@@ -1216,6 +1353,69 @@
     }
     .destacados .sep_des_emp {
     	height: 30px;
+    }
+    .destacados_ingresar_ofertas {
+    	display: block;
+    	float: right;
+    	margin-top: 35px;
+    	width: 283px;
+    }
+    .destacados_ingresar_ofertas .destaca_ofertas {
+    	background-color: #333;
+    	border-bottom: 7px solid #36a66a;
+    	height: 77px;
+    	padding-top: 16px;
+    }
+    .destacados_ingresar_ofertas .destaca_ofertas:hover {
+    	background-color: #3f3f3f;
+    	border-bottom: 7px solid #36a66a;
+    	height: 77px;
+    	padding-top: 16px;
+    }
+    .destacados_ingresar_ofertas .destaca_ofertas h4 {
+    	font-size: 1.8em;
+    	margin: 0;
+    	padding: 0;
+    	text-align: center;
+    }
+    .destacados_ingresar_ofertas .destaca_ofertas h4 a, 
+    .destacados_ingresar_ofertas .destaca_ofertas p a {
+    	color: white;
+    	text-align: center;
+    	text-decoration: none;
+    }
+    .destacados_ingresar_ofertas .destaca_ofertas p {
+    	font-size: 1.2em;
+    	margin: 0;
+    	padding: 0;
+    	text-align: center;
+    }
+    .destacados_ingresar_ofertas .servicio_premium {
+    	background-color: #333;
+    	margin-top: 30px;
+    }
+    .destacados_ingresar_ofertas .servicio_premium p {
+    	color: white;
+    	display: inline-block;
+    	margin: 0;
+    	padding: 15px 0 0 20px;
+    }
+    .destacados_ingresar_ofertas .servicio_premium .rosa {
+    	background-color: #ee4e5f;
+    	text-align: center;
+    	margin-top: 20px;
+    }
+    .destacados_ingresar_ofertas .servicio_premium .rosa p {
+    	color: white;
+    	font-weight: bold;
+    	padding: 10px 0;
+    }
+    .destacados_ingresar_ofertas .servicio_premium strong {
+    	color: white;
+    	display: inline-block;
+    	font-size: 1.2em;
+    	padding-left: 40px;
+    	vertical-align: middle;
     }
 
 
