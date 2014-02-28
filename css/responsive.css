@@ -461,6 +461,120 @@
 	.destacados {
 		display: none;
 	}
+	    .dasboard_contenido {
+		margin: 40px auto 0 auto;
+		width: 768px;
+	}
+	.dasboard_contenido .agregar_catalogo {
+		display: inline-block;
+		margin-right: 23px;
+		margin: 10px 23px 0 0;
+		vertical-align: top;
+		width: 48%;
+	}
+	.dasboard_contenido .estadisticas {
+		width: 768px;
+	}
+	.dasboard_contenido .estadisticas .estadistica1 {
+		display: inline-block;
+		margin: 0;
+		vertical-align: top;
+		width: 350px;
+	}
+	.dasboard_contenido .estadisticas .estadistica2 {
+		display: inline-block;
+		margin: 0;
+		vertical-align: top;
+		width: 350px;
+	}
+	.dasboard_contenido .estadisticas .estadistica3 {
+		display: inline-block;
+		vertical-align: top;
+		width: 300px;
+	}
+	.dasboard_contenido .estadisticas .estadistica4 {
+		display: inline-block;
+		vertical-align: top;
+		width: 200px;
+	}
+	.dasboard_contenido .estadisticas .estadistica5 {
+		display: inline-block;
+		vertical-align: top;
+		width: 200px;
+	}
+	.dasboard_contenido .nav {
+	    background-color: #333;
+	    height: 68px;
+	    position: relative;
+	}
+	.dasboard_contenido .nav .iconos_derecha {
+	    display: none;
+	}
+	.dasboard_contenido .nav .iconos_derecha img {
+	    margin: 0 5px;
+	}
+	.dasboard_contenido .nav .iconos_derecha img:hover {
+	    opacity: 0.7;
+	}
+	.dasboard_contenido .nav li {
+	    display: inline-block;
+	    font-size: 0.8em; 
+	    height: 25px;
+	    padding: 30px 0;
+	    margin-top: -10px;
+	    list-style: none;
+	    vertical-align: middle;
+	    width: 90px;
+	}
+	.dasboard_contenido .nav li:hover {
+	    background-color: #56b1e4;
+	    display: inline-block;
+	    font-size: 0.8em; 
+	    height: 25px;
+	    padding: 30px 0;
+	    margin-top: -10px;
+	    list-style: none;
+	    vertical-align: middle;
+	    width: 90px;
+	}
+	.dasboard_contenido .nav li a {
+	    color: white;
+	    display: block;
+	    text-decoration: none;
+	}
+	.dasboard_contenido .nav .menu {
+	    display: none;
+	}
+	.dasboard_contenido .nueva_oferta {
+		display: inline-block;
+		margin: 10px 0 0 0;
+		vertical-align: top;
+		width: 48%;
+	}
+	.dasboard_contenido .nueva_licitacion {
+		display: inline-block;
+		margin: 10px 23px 0 0;
+		vertical-align: top;
+		width: 48%;
+	}
+	.dasboard_contenido .publicar_requerimiento {
+		display: inline-block;
+		margin: 10px 0 0 0;
+		vertical-align: top;
+		width: 48%;
+	}
+	.dasboard_contenido .ver_ofertas {
+		display: inline-block;
+		margin: 10px 23px 0 0;
+		vertical-align: top;
+		width: 48%;
+	}
+	.dasboard_contenido .ver_licitaciones {
+		display: inline-block;
+		margin: 10px 0 0 0;
+		vertical-align: top;
+		width: 48%;
+	}
 	/* sub-contenido*/ 
 	.sub_contenido .articulos {
 		margin: 30px auto 0 auto;
@@ -595,60 +709,6 @@
     .sub_contenido .sub_menu_movil {
     	display: none;
     }
-
-
-
-
-
-
-
-    .dasboard_contenido {
-	  margin: 40px auto 0 auto;
-	  width: 768px;
-	}
-	.dasboard_contenido .nav {
-	  background-color: #333;
-	  height: 68px;
-	  position: relative;
-	}
-	.dasboard_contenido .nav .iconos_derecha {
-	  display: none;
-	}
-	.dasboard_contenido .nav .iconos_derecha img {
-	  margin: 0 5px;
-	}
-	.dasboard_contenido .nav .iconos_derecha img:hover {
-	  opacity: 0.7;
-	}
-	.dasboard_contenido .nav li {
-	  display: inline-block;
-	  font-size: 0.8em; 
-	  height: 25px;
-	  padding: 30px 0;
-	  margin-top: -10px;
-	  list-style: none;
-	  vertical-align: middle;
-	  width: 90px;
-	}
-	.dasboard_contenido .nav li:hover {
-	  background-color: #56b1e4;
-	  display: inline-block;
-	  font-size: 0.8em; 
-	  height: 25px;
-	  padding: 30px 0;
-	  margin-top: -10px;
-	  list-style: none;
-	  vertical-align: middle;
-	  width: 90px;
-	}
-	.dasboard_contenido .nav li a {
-	  color: white;
-	  display: block;
-	  text-decoration: none;
-	}
-	.dasboard_contenido .nav .menu {
-	  display: none;
-	}
 
 }
 
@@ -1542,6 +1602,113 @@
     	padding-left: 40px;
     	vertical-align: middle;
     }
+    .dasboard_contenido {
+	  margin: 40px auto 0 auto;
+	  width: 1200px;
+	}
+	.dasboard_contenido .agregar_catalogo {
+		margin: 10px 24px 0 0;
+		width: 380px;
+	}
+	.dasboard_contenido .estadisticas {
+		width: 1200px;
+	}
+	.dasboard_contenido .estadisticas .estadistica1 {
+		display: inline-block;
+		margin: 0;
+		vertical-align: top;
+		width: 320px;
+	}
+	.dasboard_contenido .estadisticas .estadistica2 {
+		display: inline-block;
+		margin: 0;
+		vertical-align: top;
+		width: 320px;
+	}
+	.dasboard_contenido .estadisticas .estadistica3 {
+		display: inline-block;
+		margin: 0;
+		vertical-align: top;
+		width: 240px;
+	}
+	.dasboard_contenido .estadisticas .estadistica3 .circulo {
+		float: right;
+	}
+	.dasboard_contenido .estadisticas .estadistica4 {
+		display: inline-block;
+		margin: 0;
+		vertical-align: top;
+		width: 140px;
+	}
+	.dasboard_contenido .estadisticas .estadistica5 {
+		display: inline-block;
+		margin: 0;
+		vertical-align: top;
+		width: 140px;
+	}
+	.dasboard_contenido .nav {
+	  background-color: #333;
+	  height: 68px;
+	  position: relative;
+	  text-align: center;
+	}
+	.dasboard_contenido .nav .iconos_derecha {
+	  display: block;
+	  position: absolute;
+	  top: 20px;
+	  right: 10px;
+	}
+	.dasboard_contenido .nav .iconos_derecha img {
+	  margin: 0 5px;
+	}
+	.dasboard_contenido .nav .iconos_derecha img:hover {
+	  opacity: 0.7;
+	}
+	.dasboard_contenido .nav li {
+	  display: inline-block;
+	  font-size: 0.8em; 
+	  height: 25px;
+	  padding: 30px 10px;
+	  margin-top: -10px;
+	  list-style: none;
+	  vertical-align: middle;
+	  width: 90px;
+	}
+	.dasboard_contenido .nav li:hover {
+	  background-color: #56b1e4;
+	  display: inline-block;
+	  font-size: 0.8em; 
+	  height: 25px;
+	  padding: 30px 10px;
+	  margin-top: -10px;
+	  list-style: none;
+	  vertical-align: middle;
+	  width: 90px;
+	}
+	.dasboard_contenido .nav li a {
+	  color: white;
+	  text-decoration: none;
+	}
+	.dasboard_contenido .nueva_oferta {
+		margin: 10px 24px 0 0;
+		width: 380px;
+	}
+	.dasboard_contenido .nueva_licitacion {
+		margin: 10px 0 0 0;
+		width: 380px;
+	}
+	.dasboard_contenido .publicar_requerimiento {
+		margin: 10px 24px 0 0;
+		width: 380px;
+	}
+	.dasboard_contenido .ver_ofertas {
+		margin: 10px 24px 0 0;
+		width: 380px;
+	}
+	.dasboard_contenido .ver_licitaciones {
+		margin: 10px 0 0 0;
+		width: 380px;
+	}
     /* sub-contenido*/
     .sub_contenido .articulos {
 		margin: 30px auto 0 auto;
@@ -1673,56 +1840,4 @@
     	text-decoration: none;
     }
 
-
-
-
-
-
-    .dasboard_contenido {
-	  margin: 40px auto 0 auto;
-	  width: 1200px;
-	}
-	.dasboard_contenido .nav {
-	  background-color: #333;
-	  height: 68px;
-	  position: relative;
-	  text-align: center;
-	}
-	.dasboard_contenido .nav .iconos_derecha {
-	  display: block;
-	  position: absolute;
-	  top: 20px;
-	  right: 10px;
-	}
-	.dasboard_contenido .nav .iconos_derecha img {
-	  margin: 0 5px;
-	}
-	.dasboard_contenido .nav .iconos_derecha img:hover {
-	  opacity: 0.7;
-	}
-	.dasboard_contenido .nav li {
-	  display: inline-block;
-	  font-size: 0.8em; 
-	  height: 25px;
-	  padding: 30px 10px;
-	  margin-top: -10px;
-	  list-style: none;
-	  vertical-align: middle;
-	  width: 90px;
-	}
-	.dasboard_contenido .nav li:hover {
-	  background-color: #56b1e4;
-	  display: inline-block;
-	  font-size: 0.8em; 
-	  height: 25px;
-	  padding: 30px 10px;
-	  margin-top: -10px;
-	  list-style: none;
-	  vertical-align: middle;
-	  width: 90px;
-	}
-	.dasboard_contenido .nav li a {
-	  color: white;
-	  text-decoration: none;
-	}
 }

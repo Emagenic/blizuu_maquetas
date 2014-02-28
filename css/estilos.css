@@ -1002,6 +1002,433 @@ nav ul li {
 .destacados_ingresar_ofertas {
   display: none;
 }
+.dasboard_contenido {
+	color: white;
+  	margin: 40px auto 0 auto;
+  	width: 90%;
+}
+.dasboard_contenido .agregar_catalogo {
+	background-color: #f0586a;
+	margin: 20px 0;
+  	padding: 35px 0 20px 0;
+  	position: relative;
+}
+.dasboard_contenido .agregar_catalogo figure {
+	position: absolute;
+	top: 13px;
+	right: 13px;
+}
+.dasboard_contenido .agregar_catalogo figure a:hover {
+	opacity: 0.8;
+}
+.dasboard_contenido .agregar_catalogo p {
+	font-size: 1.6em;
+	padding: 0 0 0 15px;
+	margin: 0;
+}
+.dasboard_contenido .agregar_catalogo .al {
+	display: inline;
+	font-size: 1em;
+	padding: 0 0 0 15px;
+	margin: 0;
+}
+.dasboard_contenido .agregar_catalogo .bold {
+	font-size: 1.8em;
+	font-weight: bold;
+	line-height: 16px;
+	padding: 0 0 0 15px;
+	margin: 0;
+}
+.dasboard_contenido .agregar_catalogo .bold_catalogo {
+	display: inline;
+	font-size: 1.8em;
+	font-weight: bold;
+	padding: 0 0 0 5px;
+	margin: 0;
+}
+.dasboard_contenido .estadisticas {
+	background-color: white;
+	color: #666;
+	margin: 20px 0;
+  	padding: 10px 0;
+  	text-align: center;
+}
+.dasboard_contenido .estadisticas .estadistica1 {
+	margin: 20px auto;
+	position: relative;
+	width: 90%;
+}
+.dasboard_contenido .estadisticas .estadistica1 .circulo {
+	background-color: #36a66a;
+	border-radius: 50%;
+	height: 125px;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+	width: 135px;
+}
+.dasboard_contenido .estadisticas .estadistica1 .circulo .centro {
+	background-color: white;
+	border-radius: 50%;
+	height: 114px;
+	margin: 0 auto;
+	width: 114px;
+}
+.dasboard_contenido .estadisticas .estadistica1 .circulo .centro figure {
+	padding-top: 23px;
+}
+.dasboard_contenido .estadisticas .estadistica1 .numeros1 {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	text-align: center;
+}
+.dasboard_contenido .estadisticas .estadistica1 .numeros1 .numero {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin:0;
+	padding: 0;
+}
+.dasboard_contenido .estadisticas .estadistica1 .numeros1 p {
+	font-size: 0.8em;
+	margin:0;
+	padding: 0;
+}
+.dasboard_contenido .estadisticas .estadistica1 .numeros2 {
+	right: 0;
+	position: absolute;
+	text-align: center;
+	top: 0;
+}
+.dasboard_contenido .estadisticas .estadistica1 .numeros2 .numero {
+	color: #36a66a;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin:0;
+	padding: 0;
+}
+.dasboard_contenido .estadisticas .estadistica1 .numeros2 p {
+	font-size: 0.8em;
+	margin:0;
+	padding: 0;
+}
+.dasboard_contenido .estadisticas .estadistica2 {
+	margin: 20px auto;
+	position: relative;
+	width: 90%;
+}
+.dasboard_contenido .estadisticas .estadistica2 .circulo {
+	background-color: #f25667;
+	border-radius: 50%;
+	height: 125px;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+	width: 135px;
+}
+.dasboard_contenido .estadisticas .estadistica2 .circulo .centro {
+	background-color: white;
+	border-radius: 50%;
+	height: 114px;
+	margin: 0 auto;
+	width: 114px;
+}
+.dasboard_contenido .estadisticas .estadistica2 .circulo .centro figure {
+	padding-top: 23px;
+}
+.dasboard_contenido .estadisticas .estadistica2 .numeros1 {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	text-align: center;
+}
+.dasboard_contenido .estadisticas .estadistica2 .numeros1 .numero {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin:0;
+	padding: 0;
+}
+.dasboard_contenido .estadisticas .estadistica2 .numeros1 p {
+	font-size: 0.8em;
+	margin:0;
+	padding: 0;
+}
+.dasboard_contenido .estadisticas .estadistica2 .numeros2 {
+	right: 0;
+	position: absolute;
+	text-align: center;
+	top: 0;
+}
+.dasboard_contenido .estadisticas .estadistica2 .numeros2 .numero {
+	color: #f25667;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin:0;
+	padding: 0;
+}
+.dasboard_contenido .estadisticas .estadistica2 .numeros2 p {
+	font-size: 0.8em;
+	margin:0;
+	padding: 0;
+}
+.dasboard_contenido .estadisticas .estadistica3 {
+	margin: 20px auto;
+	position: relative;
+	width: 90%;
+}
+.dasboard_contenido .estadisticas .estadistica3 .circulo {
+	background-color: #535353;
+	border-radius: 50%;
+	height: 125px;
+	margin: 0 auto;
+	padding: 10px 0 0 0;
+	width: 135px;
+}
+.dasboard_contenido .estadisticas .estadistica3 .circulo .centro {
+	background-color: white;
+	border-radius: 50%;
+	height: 104px;
+	margin: 0 auto 0 auto;
+	padding: 10px 0 0 0;
+	width: 114px;
+}
+.dasboard_contenido .estadisticas .estadistica3 .circulo .centro .morado{
+	background-color: #9641b2;
+	border-radius: 50%;
+	height: 92px;
+	margin: 0 auto;
+	width: 92px;
+}
+.dasboard_contenido .estadisticas .estadistica3 .circulo .centro .numero {
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin:0;
+	padding: 10px 0 0 0;
+}
+.dasboard_contenido .estadisticas .estadistica3 .circulo .centro p {
+	color: white;
+	font-size: 0.7em;
+	margin:0;
+	padding: 0;
+}
+.dasboard_contenido .estadisticas .estadistica3 .numeros1 {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	text-align: center;
+}
+.dasboard_contenido .estadisticas .estadistica3 .numeros1 .numero {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin:0;
+	padding: 0;
+}
+.dasboard_contenido .estadisticas .estadistica3 .numeros1 p {
+	font-size: 0.8em;
+	margin:0;
+	padding: 0;
+}
+.dasboard_contenido .estadisticas .estadistica4 {
+	margin: 20px auto;
+	width: 90%;
+}
+.dasboard_contenido .estadisticas .estadistica4 figure {
+	margin-bottom: 10px;
+}
+.dasboard_contenido .estadisticas .estadistica4 .numero {
+	color: #f75261;
+	font-size: 2em;
+	font-weight: bold;
+	margin:0;
+	padding: 0;
+}
+.dasboard_contenido .estadisticas .estadistica4 p {
+	font-size: 0.8em;
+	padding: 0;
+	margin: 0;
+}
+.dasboard_contenido .estadisticas .estadistica5 {
+	margin: 20px auto;
+	width: 90%;
+}
+.dasboard_contenido .estadisticas .estadistica5 figure {
+	margin-bottom: 10px;
+}
+.dasboard_contenido .estadisticas .estadistica5 .numero {
+	color: #f75261;
+	font-size: 2em;
+	font-weight: bold;
+	margin:0;
+	padding: 0;
+}
+.dasboard_contenido .estadisticas .estadistica5 p {
+	font-size: 0.8em;
+	padding: 0;
+	margin: 0;
+}
+.dasboard_contenido h2 {
+	color: #333;
+	font-size: 1.3em;
+	font-weight: bold;
+	margin: 15px 0;
+	padding: 20px 0 0 0;
+}
+.dasboard_contenido .linea_rosa {
+	background-color: #f0586a;
+	height: 5px;
+}
+.dasboard_contenido .nav {
+  	background-color: #333;
+  	height: 68px;
+  	position: relative;
+  	text-align: center;
+}
+.dasboard_contenido .nueva_oferta {
+	background-color: #333;
+	margin: 20px 0;
+  	padding: 35px 0 35px 0;
+  	position: relative;
+}
+.dasboard_contenido .nueva_oferta figure {
+	position: absolute;
+	top: 13px;
+	right: 13px;
+}
+.dasboard_contenido .nueva_oferta figure a:hover {
+	opacity: 0.8;
+}
+.dasboard_contenido .nueva_oferta p {
+	font-size: 1.8em;
+	padding: 0 0 0 15px;
+	margin: 0;
+}
+.dasboard_contenido .nueva_oferta .bold {
+	font-size: 1.9em;
+	font-weight: bold;
+	line-height: 16px;
+	padding: 0 0 0 15px;
+	margin: 0;
+}
+.dasboard_contenido .nueva_licitacion {
+	background-color: #fbb132;
+	margin: 20px 0;
+  	padding: 35px 0 35px 0;
+  	position: relative;
+}
+.dasboard_contenido .nueva_licitacion figure {
+	position: absolute;
+	top: 13px;
+	right: 13px;
+}
+.dasboard_contenido .nueva_licitacion figure a:hover {
+	opacity: 0.8;
+}
+.dasboard_contenido .nueva_licitacion p {
+	font-size: 1.8em;
+	padding: 0 0 0 15px;
+	margin: 0;
+}
+.dasboard_contenido .nueva_licitacion .bold {
+	font-size: 1.9em;
+	font-weight: bold;
+	line-height: 16px;
+	padding: 0 0 0 15px;
+	margin: 0;
+}
+.dasboard_contenido .nav .iconos_derecha {
+  	display: none;
+}
+.dasboard_contenido .nav li {
+	list-style: none;
+}
+.dasboard_contenido .nav li a {
+  	display: none;
+}
+.dasboard_contenido .nav .menu {
+  	color: white;
+  	line-height: 68px;
+}
+.dasboard_contenido .nav .menu img {
+  	margin-left: 5px;
+  	width: 15px;
+}
+.dasboard_contenido .publicar_requerimiento {
+	background-color: #5ab2e2;
+	margin: 20px 0;
+  	padding: 65px 0 20px 0;
+  	position: relative;
+}
+.dasboard_contenido .publicar_requerimiento figure {
+	position: absolute;
+	top: 13px;
+	right: 13px;
+}
+.dasboard_contenido .publicar_requerimiento figure a:hover {
+	opacity: 0.8;
+}
+.dasboard_contenido .publicar_requerimiento p {
+	font-size: 1.8em;
+	padding: 0 0 0 15px;
+	margin: 0;
+}
+.dasboard_contenido .publicar_requerimiento .bold {
+	font-size: 1.9em;
+	font-weight: bold;
+	line-height: 16px;
+	padding: 0 0 0 15px;
+	margin: 0;
+}
+.dasboard_contenido .ver_ofertas {
+	background-color: #36a66a;
+	margin: 20px 0;
+  	padding: 35px 0 35px 0;
+  	position: relative;
+}
+.dasboard_contenido .ver_ofertas figure {
+	position: absolute;
+	top: 13px;
+	right: 13px;
+}
+.dasboard_contenido .ver_ofertas figure a:hover {
+	opacity: 0.8;
+}
+.dasboard_contenido .ver_ofertas p {
+	font-size: 1.8em;
+	padding: 0 0 0 15px;
+	margin: 0;
+}
+.dasboard_contenido .ver_ofertas .bold {
+	font-size: 1.9em;
+	font-weight: bold;
+	line-height: 16px;
+	padding: 0 0 0 15px;
+	margin: 0;
+}
+.dasboard_contenido .ver_licitaciones {
+	background-color: #888;
+	margin: 20px 0;
+  	padding: 35px 0 35px 0;
+  	position: relative;
+}
+.dasboard_contenido .ver_licitaciones figure {
+	position: absolute;
+	top: 13px;
+	right: 13px;
+}
+.dasboard_contenido .ver_licitaciones figure a:hover {
+	opacity: 0.8;
+}
+.dasboard_contenido .ver_licitaciones p {
+	font-size: 1.8em;
+	padding: 0 0 0 15px;
+	margin: 0;
+}
+.dasboard_contenido .ver_licitaciones .bold {
+	font-size: 1.9em;
+	font-weight: bold;
+	line-height: 16px;
+	padding: 0 0 0 15px;
+	margin: 0;
+}
 .sep_footer {
 	clear: both;
 	height: 50px;
@@ -1627,215 +2054,4 @@ nav ul li {
 }
 .sub_contenido .sub_menu_movil p img {
   width: 10px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.dasboard_contenido {
-	color: white;
-  	margin: 40px auto 0 auto;
-  	width: 90%;
-}
-.dasboard_contenido .agregar_catalogo {
-	background-color: #f0586a;
-	margin: 20px 0;
-  	padding: 40px 0 20px 0;
-  	position: relative;
-}
-.dasboard_contenido .agregar_catalogo figure {
-	position: absolute;
-	top: 13px;
-	right: 13px;
-}
-.dasboard_contenido .agregar_catalogo p {
-	font-size: 1.6em;
-	padding: 0 0 0 15px;
-	margin: 0;
-}
-.dasboard_contenido .agregar_catalogo .al {
-	display: inline;
-	font-size: 1em;
-	padding: 0 0 0 15px;
-	margin: 0;
-}
-.dasboard_contenido .agregar_catalogo .bold {
-	font-size: 1.8em;
-	font-weight: bold;
-	line-height: 16px;
-	padding: 0 0 0 15px;
-	margin: 0;
-}
-.dasboard_contenido .agregar_catalogo .bold_catalogo {
-	display: inline;
-	font-size: 1.8em;
-	font-weight: bold;
-	padding: 0 0 0 5px;
-	margin: 0;
-}
-.dasboard_contenido .estadisticas {
-	background-color: white;
-	color: #666;
-	margin: 20px 0;
-  	padding: 10px 0;
-}
-.dasboard_contenido h2 {
-	color: #333;
-	font-size: 1.3em;
-	font-weight: bold;
-	margin: 15px 0;
-	padding: 20px 0 0 0;
-}
-.dasboard_contenido .linea_rosa {
-	background-color: #f0586a;
-	height: 5px;
-}
-.dasboard_contenido .nav {
-  	background-color: #333;
-  	height: 68px;
-  	position: relative;
-  	text-align: center;
-}
-.dasboard_contenido .nueva_oferta {
-	background-color: #333;
-	margin: 20px 0;
-  	padding: 35px 0 35px 0;
-  	position: relative;
-}
-.dasboard_contenido .nueva_oferta figure {
-	position: absolute;
-	top: 13px;
-	right: 13px;
-}
-.dasboard_contenido .nueva_oferta p {
-	font-size: 1.8em;
-	padding: 0 0 0 15px;
-	margin: 0;
-}
-.dasboard_contenido .nueva_oferta .bold {
-	font-size: 1.9em;
-	font-weight: bold;
-	line-height: 16px;
-	padding: 0 0 0 15px;
-	margin: 0;
-}
-.dasboard_contenido .nueva_licitacion {
-	background-color: #fbb132;
-	margin: 20px 0;
-  	padding: 35px 0 35px 0;
-  	position: relative;
-}
-.dasboard_contenido .nueva_licitacion figure {
-	position: absolute;
-	top: 13px;
-	right: 13px;
-}
-.dasboard_contenido .nueva_licitacion p {
-	font-size: 1.8em;
-	padding: 0 0 0 15px;
-	margin: 0;
-}
-.dasboard_contenido .nueva_licitacion .bold {
-	font-size: 1.9em;
-	font-weight: bold;
-	line-height: 16px;
-	padding: 0 0 0 15px;
-	margin: 0;
-}
-.dasboard_contenido .nav .iconos_derecha {
-  	display: none;
-}
-.dasboard_contenido .nav li {
-	list-style: none;
-}
-.dasboard_contenido .nav li a {
-  	display: none;
-}
-.dasboard_contenido .nav .menu {
-  	color: white;
-  	line-height: 68px;
-}
-.dasboard_contenido .nav .menu img {
-  	margin-left: 5px;
-  	width: 15px;
-}
-.dasboard_contenido .publicar_requerimiento {
-	background-color: #5ab2e2;
-	margin: 20px 0;
-  	padding: 70px 0 20px 0;
-  	position: relative;
-}
-.dasboard_contenido .publicar_requerimiento figure {
-	position: absolute;
-	top: 13px;
-	right: 13px;
-}
-.dasboard_contenido .publicar_requerimiento p {
-	font-size: 1.8em;
-	padding: 0 0 0 15px;
-	margin: 0;
-}
-.dasboard_contenido .publicar_requerimiento .bold {
-	font-size: 1.9em;
-	font-weight: bold;
-	line-height: 16px;
-	padding: 0 0 0 15px;
-	margin: 0;
-}
-.dasboard_contenido .ver_ofertas {
-	background-color: #36a66a;
-	margin: 20px 0;
-  	padding: 35px 0 35px 0;
-  	position: relative;
-}
-.dasboard_contenido .ver_ofertas figure {
-	position: absolute;
-	top: 13px;
-	right: 13px;
-}
-.dasboard_contenido .ver_ofertas p {
-	font-size: 1.8em;
-	padding: 0 0 0 15px;
-	margin: 0;
-}
-.dasboard_contenido .ver_ofertas .bold {
-	font-size: 1.9em;
-	font-weight: bold;
-	line-height: 16px;
-	padding: 0 0 0 15px;
-	margin: 0;
-}
-.dasboard_contenido .ver_licitaciones {
-	background-color: #888;
-	margin: 20px 0;
-  	padding: 35px 0 35px 0;
-  	position: relative;
-}
-.dasboard_contenido .ver_licitaciones figure {
-	position: absolute;
-	top: 13px;
-	right: 13px;
-}
-.dasboard_contenido .ver_licitaciones p {
-	font-size: 1.8em;
-	padding: 0 0 0 15px;
-	margin: 0;
-}
-.dasboard_contenido .ver_licitaciones .bold {
-	font-size: 1.9em;
-	font-weight: bold;
-	line-height: 16px;
-	padding: 0 0 0 15px;
-	margin: 0;
 }
