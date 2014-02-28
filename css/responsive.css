@@ -297,7 +297,6 @@
 		margin: 0; 
 		padding: 0 0 5px 0; 
 	}
-
 	.contenido .contenido_principal .desplegable {
 	    margin-bottom: 10px;
 	    margin-top: 40px;
@@ -347,7 +346,6 @@
 	    margin: 0;
 	    padding: 5px 10px 0 0; 
 	    float: right;
-
 	}
 	.contenido .contenido_principal .desplegable .desplegable_oferta .textos_movil {
 		display: none;
@@ -463,9 +461,6 @@
 	.destacados {
 		display: none;
 	}
-
-
-
 	/* sub-contenido*/ 
 	.sub_contenido .articulos {
 		margin: 30px auto 0 auto;
@@ -601,7 +596,67 @@
     	display: none;
     }
 
+
+
+
+
+
+
+    .dasboard_contenido {
+	  margin: 40px auto 0 auto;
+	  width: 768px;
+	}
+	.dasboard_contenido .nav {
+	  background-color: #333;
+	  height: 68px;
+	  position: relative;
+	}
+	.dasboard_contenido .nav .iconos_derecha {
+	  display: none;
+	}
+	.dasboard_contenido .nav .iconos_derecha img {
+	  margin: 0 5px;
+	}
+	.dasboard_contenido .nav .iconos_derecha img:hover {
+	  opacity: 0.7;
+	}
+	.dasboard_contenido .nav li {
+	  display: inline-block;
+	  font-size: 0.8em; 
+	  height: 25px;
+	  padding: 30px 0;
+	  margin-top: -10px;
+	  list-style: none;
+	  vertical-align: middle;
+	  width: 90px;
+	}
+	.dasboard_contenido .nav li:hover {
+	  background-color: #56b1e4;
+	  display: inline-block;
+	  font-size: 0.8em; 
+	  height: 25px;
+	  padding: 30px 0;
+	  margin-top: -10px;
+	  list-style: none;
+	  vertical-align: middle;
+	  width: 90px;
+	}
+	.dasboard_contenido .nav li a {
+	  color: white;
+	  display: block;
+	  text-decoration: none;
+	}
+	.dasboard_contenido .nav .menu {
+	  display: none;
+	}
+
 }
+
+
+
+
+
+
 
 
 
@@ -775,13 +830,7 @@
 		margin: 0; 
 		padding: 0 0 5px 0; 
 	}
-
-
-
-
-
 	.contenido .contenido_principal .desplegable {
-	    
 	    margin-bottom: 10px;
 	    margin-top: 40px;
 	    padding: 10px 0;
@@ -830,19 +879,10 @@
 	    margin: 0;
 	    padding: 5px 10px 0 0; 
 	    float: right;
-
 	}
 	.contenido .contenido_principal .desplegable .desplegable_oferta .textos_movil {
 		display: none;
 	}
-
-
-
-
-
-
-
-
 	.contenido .contenido_principal .ingresar_oferta input {
 	  	border: none;
 	  	display: inline-block;
@@ -1502,11 +1542,6 @@
     	padding-left: 40px;
     	vertical-align: middle;
     }
-
-
-
-
-
     /* sub-contenido*/
     .sub_contenido .articulos {
 		margin: 30px auto 0 auto;
@@ -1637,4 +1672,57 @@
     	color: white;
     	text-decoration: none;
     }
+
+
+
+
+
+
+    .dasboard_contenido {
+	  margin: 40px auto 0 auto;
+	  width: 1200px;
+	}
+	.dasboard_contenido .nav {
+	  background-color: #333;
+	  height: 68px;
+	  position: relative;
+	  text-align: center;
+	}
+	.dasboard_contenido .nav .iconos_derecha {
+	  display: block;
+	  position: absolute;
+	  top: 20px;
+	  right: 10px;
+	}
+	.dasboard_contenido .nav .iconos_derecha img {
+	  margin: 0 5px;
+	}
+	.dasboard_contenido .nav .iconos_derecha img:hover {
+	  opacity: 0.7;
+	}
+	.dasboard_contenido .nav li {
+	  display: inline-block;
+	  font-size: 0.8em; 
+	  height: 25px;
+	  padding: 30px 10px;
+	  margin-top: -10px;
+	  list-style: none;
+	  vertical-align: middle;
+	  width: 90px;
+	}
+	.dasboard_contenido .nav li:hover {
+	  background-color: #56b1e4;
+	  display: inline-block;
+	  font-size: 0.8em; 
+	  height: 25px;
+	  padding: 30px 10px;
+	  margin-top: -10px;
+	  list-style: none;
+	  vertical-align: middle;
+	  width: 90px;
+	}
+	.dasboard_contenido .nav li a {
+	  color: white;
+	  text-decoration: none;
+	}
 }
