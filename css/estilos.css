@@ -79,7 +79,7 @@ header .menu {
 	top: 18px;
 	width: 39px;
 }
-header .menu:hover {
+header .seleccionado {
 	background-image: url(../imagenes/menu_responsive_on.png);
 	display: block;
 	height: 39px;
@@ -87,6 +87,46 @@ header .menu:hover {
 	right: 15px;
 	top: 18px;
 	width: 39px;
+}
+		
+header .menu .info {
+	background-color: #333;
+	box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+	color: white;
+	display: none;
+	margin-left: -160px;
+	margin-top: 20px;
+	position: absolute;
+	width: 200px;
+	text-align: center;
+}
+header .menu .info .content {
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+header .menu .info .content ul {
+	padding: 0;
+	text-align: center;
+}
+header .menu .info .content ul li {
+	list-style: none;
+	padding: 10px;
+	margin: 5px 0;
+	font-size: 0.8em;
+	border-bottom: 3px solid #5ab2e2;
+}
+header .menu .info .content ul li:hover {
+	background: #444;
+	border-bottom: 3px solid #bb3933;
+}
+header .menu .info .content ul li a {
+	color: white;
+	text-decoration: none;
+}
+header .menu .info .content ul li a:hover {
+	color: white;
+	text-decoration: none;
 }
 nav ul li {
 	display: none;
@@ -1343,11 +1383,11 @@ nav ul li {
 .dasboard_contenido .nav li a {
   	display: none;
 }
-.dasboard_contenido .nav .menu {
+.dasboard_contenido .nav .menu_dashboard {
   	color: white;
   	line-height: 68px;
 }
-.dasboard_contenido .nav .menu img {
+.dasboard_contenido .nav .menu_dashboard img {
   	margin-left: 5px;
   	width: 15px;
 }

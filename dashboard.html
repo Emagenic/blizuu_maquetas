@@ -8,6 +8,30 @@
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="shortcut icon" href="imagenes/icon.png">
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript">
+		$.fn.extend({
+			botonMenu:function(){
+				this.each(function(){
+					$(this).on("click", mensaje);
+				});
+			}
+		});
+		function mensaje(){
+			$(this).children(0).toggle("fast");
+			if($(this).hasClass("seleccionado")){
+				$(this).removeClass("seleccionado");
+			}else{
+				$(this).addClass("seleccionado");
+			}
+		}
+	</script>
+	<script type="text/javascript">
+		$(document).on("ready", main);
+		function main(){
+			$(".menu").botonMenu();
+		}
+	</script>
 </head>
 <body>
 	<header>
@@ -22,7 +46,20 @@
 				<li><a href="#">LICITACIONES</a></li>
 			</ul>
 		</nav>
-		<a href="#"><div class="menu"></div></a>
+		<a href="#">
+			<div class="menu">					
+				<div class="info">
+					<div class="content">
+						<ul>
+							<li><a href="#">DIRECTORIO</a></li>
+							<li><a href="#">PRDUCTOS</a></li>
+							<li><a href="#">OFERTAS</a></li>
+							<li><a href="#">LICITACIONES</a></li>
+						</ul>	
+					</div>
+				</div>
+			</div>
+		</a>
 		<div class="avatar">
 			<figure class="foto">
 				<img src="imagenes/avatar.jpg">
@@ -51,7 +88,7 @@
 	</div>
 	<section class="dasboard_contenido">
 		<div class="nav">
-			<div class="menu">MENU <a href="#"><img src="imagenes/flechita.png"></a></div>
+			<div class="menu_dashboard">MENU <a href="#"><img src="imagenes/flechita.png"></a></div>
 			<li><a href="#">HOME</a></li>
 			<li><a href="#">INBOX</a></li>
 			<li><a href="#">PERFIL</a></li>
